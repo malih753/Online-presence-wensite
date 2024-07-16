@@ -10,7 +10,9 @@ function Section4() {
         Ready to rock the digital world? Fill out the form to schedule your free
         consultation and let's get started on your next big idea!
       </p>
-      <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-[10px] flex items-center mx-auto">
+      <a
+        href="#formData"
+        className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-[10px] flex items-center mx-auto">
         Get a Quote
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +28,7 @@ function Section4() {
             d="M9 5l7 7-7 7"
           />
         </svg>
-      </button>
+      </a>
     </div>
   );
 }
