@@ -13,9 +13,11 @@ function Header() {
         <a href="#formData" class="bg-orange-500 text-white py-2 px-4 rounded">
           Get a Quote
         </a>
-        <button className="rounded-[6px] bg-[#5BF877] w-10 h-10 flex items-center justify-center">
-          <img src={whatsapp} alt="WhatsApp Logo" />
-        </button>
+        <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+          <button className="rounded-[6px] bg-[#5BF877] w-10 h-10 flex items-center justify-center">
+            <img src={whatsapp} alt="WhatsApp Logo" />
+          </button>
+        </a>
       </div>
     </div>
   );
