@@ -8,7 +8,7 @@ import newlogo from "../photos/New logo.png";
 
 function Section1() {
   return (
-    <div className="w-full  flex items-center flex-col lg:flex-row px-4 md:px-[104px]">
+    <div className="w-full  flex items-center flex-col lg:flex-row px-4 md:px-[104px] ">
       <div className="w-full md:w-[50%] text-center md:text-left mt-[16px] 2xl:mt-8 sec-1">
         <h1 className="w-full   2xl:text-4xl font-bold mb-[20px] text-black font-['Clash Display'] text-[30px] 2xl:text-[52px] leading-normal">
           Ready to shake up your online presence?

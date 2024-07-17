@@ -7,15 +7,15 @@ import Capa_1 from "../icons/Capa_1.svg";
 function Section3() {
   return (
     <div className="bg-white flex justify-center items-center min-h-screen p-4">
-      <div className="w-full max-w-6xl">
-        <div className="text-center mb-12">
+      <div className="w-full max-w-6xl mt-2">
+        <div className="text-center mb-12 md:mb-6 xs:mb-2 sm:mb-8">
           <h1 className="text-4xl font-bold text-black">
             Discover <span className="text-orange-500">Our Services</span> to
             Suit Your Every Need. We're Your Partners in Success!
           </h1>
         </div>
         <div className="flex justify-center">
-          <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 md:mx-auto">
+          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 md:mx-auto">
             <div className="flex flex-col space-y-8 mt-[103px]">
               <div className="w-[360px] max-sm:w-[300px] lg:w-[450px] max-sm:h-[350px]  h-[265px] bg-[#000000] text-white rounded-lg">
                 <div className="mt-[32px] mb-[32px] ml-[28px] mr-[66px]">
